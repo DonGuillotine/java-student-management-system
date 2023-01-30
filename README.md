@@ -1,4 +1,4 @@
-# Java Student Management-system (Detailed readme coming soon...)
+# Java Student Management System (Detailed readme coming soon...)
 
 # What is Java?
 Java is a popular programming language, created in 1995.
