@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Students Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
+
+ 
+    <link rel="stylesheet" href="assets/css/null/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <form method="POST" id="signup-form" class="signup-form">
+                    <h2>Register </h2>
+                    <p class="desc"> to enter the gaming school <span>“Donald's Odyssey”</span></p>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="firstname" id="name" placeholder="First Name"/>
+                    </div>
+                     <div class="form-group">
+                        <input type="text" class="form-input" name="lastname" placeholder="Last Name"/>
+                    </div>
+                     <div class="form-group">
+                        <input type="date" class="form-input" name="dateofbirth" />
+                    </div>
+                     <div class="form-group">
+                        <input type="number" class="form-input" name="phonenumber" placeholder="Phone Number"/>
+                    </div>
+                     <div class="form-group">
+                        <input type="text" class="form-input" name="firstname" id="name" placeholder="Address"/>
+                    </div>
+                     <div class="form-group">
+                        <input type="text" class="form-input" name="firstname" id="name" placeholder="Parents Name"/>
+                    </div>
+                     <div class="form-group">
+                        <input type="number" class="form-input" name="phonenumber" placeholder="Parents Number"/>
+                    </div>
+                     <label for="inlineFormCustomSelectPref">Gender</label>
+                      <select class="form-group" id="inlineFormCustomSelectPref">
+                        <option selected>Choose...</option>
+                          <option value="1">Male</option>
+                           <option value="2">Female</option>
+                             <option value="3">Custom</option>
+                      </select>
+                    <div class="form-group">
+                        <input type="email" class="form-input" name="email" id="email" placeholder="Email"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-input" name="password" id="password" placeholder="Password"/>
+                      
+                    </div>
+                     <div class="form-group">
+                        <input type="password" class="form-input" name="password" id="passwordx" placeholder="Confirm Password"/>
+                      
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="submit" id="submit" class="form-submit submit" value="Sign up"/>
+                    </div>
+                     or <a style="color:white" href="login.html">  Log in</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Edit Student</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/edit.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <form method="POST" id="signup-form" class="signup-form">
+                    <h2>Edit Student </h2>
+                  
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="firstname" id="name" placeholder="Name"/>
+                    </div>
+                      <div class="form-group">
+                        <input type="text" class="form-input" name="firstname" id="name" placeholder="Age"/>
+                    </div>
+                     <div class="form-group">
+                        <input type="text" class="form-input" name="lastname" placeholder="Class"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="lastname" placeholder="Address"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-input" name="lastname" placeholder="Fees"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-input" name="lastname"/>
+                    </div>
+                     
+                    <div class="form-group">
+                        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                        <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="submit" id="submit" class="form-submit submit" value="Sign up"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
